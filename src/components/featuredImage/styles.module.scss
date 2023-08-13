@@ -1,0 +1,14 @@
+@import "../../sass/variables.scss";
+
+.featured-image {
+  display: block;
+  background-color: $lightBlue;
+
+  img {
+    margin: -150px 0 150px 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+}

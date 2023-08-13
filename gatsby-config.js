@@ -6,5 +6,7 @@ module.exports = {
     title: `Wep Application Starter`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-sass',
+  ],
 }
