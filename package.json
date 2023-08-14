@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "rsync -r public/* neeraj@server.webappstarter.com:/mnt/docker/data/webappstarter/www/"
+    "deploy": "rsync -r public/* neeraj@server.webappstarter.com:/mnt/docker/data/webappstarter/www/",
+    "deploy_assets": "rsync -r assets/nginx/conf.d neeraj@server.webappstarter.com:/mnt/docker/data/webappstarter/webapp/"
   },
   "dependencies": {
     "gatsby": "^5.11.0",
