@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "scp -r public/* neeraj@server.webappstarter.com:/mnt/docker/data/webappstarter/www/"
+    "deploy": "rsync -r public/* neeraj@server.webappstarter.com:/mnt/docker/data/webappstarter/www/"
   },
   "dependencies": {
     "gatsby": "^5.11.0",
