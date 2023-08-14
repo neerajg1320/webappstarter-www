@@ -1,6 +1,6 @@
 import * as styles from "./styles.module.scss";
 import React from 'react';
-import Container from "../container";
+import Container from "../../container";
 
 const FeaturedImage = () => {
   return (

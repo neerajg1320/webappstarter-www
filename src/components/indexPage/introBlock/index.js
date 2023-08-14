@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './styles.module.scss';
-import Container from '../container';
+import Container from '../../container';
 
 const IntroBlock = () => {
   return (
@@ -9,7 +9,7 @@ const IntroBlock = () => {
         <h1 className={styles.introBlockTitle}>
           Web Application <span>Starter Templates</span> for a <span>quick start</span>
         </h1>
-        <a className={styles.cta} href="/">Get in touch</a>
+        <a className={styles.cta} href="/Users/neeraj/Projects/Production/react-morph/05-Implementation/webappstarter-www/src/pages">Get in touch</a>
       </Container>
     </div>
   );

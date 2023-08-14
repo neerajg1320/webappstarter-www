@@ -1,0 +1,32 @@
+@import "../../../sass/variables";
+
+.faq-list {
+  background-color: $white;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.faq-list-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  font-family: $poppins;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .question {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .answer {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+

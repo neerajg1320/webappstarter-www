@@ -1,0 +1,32 @@
+@import "src/sass/variables";
+
+.intro-block {
+  padding: 100px 0 250px 0;
+  text-align: center;
+  background-color: $blue;
+}
+
+.intro-block-title {
+  margin: 0 0 40px 0;
+  color: $white;
+  font-family: $poppins;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-transform: lowercase;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+.cta {
+  padding: 13px 25px;
+  border-radius: 5px;
+  color: $blue;
+  background-color: $white;
+  font-size: 16px;
+  font-family: $poppins;
+  display: inline-block;
+  text-decoration: none;
+}

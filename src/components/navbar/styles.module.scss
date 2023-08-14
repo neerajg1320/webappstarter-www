@@ -48,13 +48,14 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  a {
+
+  .nav-item {
     display: block;
     padding: 10px;
     color: $white;
     font-size: 16px;
     font-family: $poppins;
-    text-decoration: none;    
+    text-decoration: none;
   }
 }
 

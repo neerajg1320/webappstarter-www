@@ -1,8 +1,8 @@
 import "../sass/basic.scss";
 import React from "react";
 import Navbar from "../components/navbar";
-import IntroBlock from "../components/infoBlock";
-import FeaturedImage from "../components/featuredImage";
+import IntroBlock from "../components/indexPage/introBlock";
+import FeaturedImage from "../components/indexPage/featuredImage";
 import Footer from "../components/footer";
 
 const IndexPage = () => {
@@ -13,7 +13,6 @@ const IndexPage = () => {
       <FeaturedImage />
       <Footer />
     </>
-    
   )
 };
 
