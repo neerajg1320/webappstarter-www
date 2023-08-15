@@ -28,7 +28,7 @@ const FaqList = () => {
       }
 
     ]
-  })
+  }, []);
   
   return (
     <div className={styles.faqList}>
@@ -36,7 +36,7 @@ const FaqList = () => {
         <div className={styles.faqListInner}>
           {
             faqs.map((faq, index) => {
-              return (<div className={styles.faqItem}>
+              return (<div key={index} className={styles.faqItem}>
                 <p className={styles.question}>
                   {index+1}.{faq.question}
                 </p>

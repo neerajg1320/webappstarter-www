@@ -5,14 +5,14 @@ import {studioPlaygroundUrl, studioUrl} from "../../config/global";
 import {Link} from "gatsby";
 
 const Navbar = () => {
-  console.log(`Navbar render:`, styles);
+  // console.log(`Navbar render:`, styles);
 
   return (
     <div className={styles.navbar}>
       <Container>
         <div className={styles.navbarInner}>
           <div className={styles.navbarLeft}>
-            <a className={styles.logo} href="#">WEBAPP STARTER</a>
+            <Link className={styles.logo}  to="/">WEBAPP STARTER</Link>
             <ul className={styles.list}>
               <li className={styles.listItem}><a className={styles.navItem} href={`${studioPlaygroundUrl}`}>Playground</a></li>
               <li className={styles.listItem}><a className={styles.navItem} href={`${studioUrl}`}>Studio</a></li>

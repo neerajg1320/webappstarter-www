@@ -4,7 +4,7 @@ import Container from "../container";
 import { getCurrentYear } from "../../utils/date";
 
 const Footer = () => {
-  console.log(`Navbar render:`, styles);
+  // console.log(`Navbar render:`, styles);
 
   return (
     <footer className={styles.footer}>
