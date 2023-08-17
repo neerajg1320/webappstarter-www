@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import FaqHeader from "../components/faqPage/faqHeader";
-import FaqList from "../components/faqPage/faqList";
+import FaqHeader from "../components/page-faq/faqHeader";
+import FaqList from "../components/page-faq/faqList";
 
 const FaqPage = () => {
   return (

@@ -1,8 +1,8 @@
 import "../sass/basic.scss";
 import React from "react";
 import Navbar from "../components/navbar";
-import IntroBlock from "../components/indexPage/introBlock";
-import FeaturedImage from "../components/indexPage/featuredImage";
+import IntroBlock from "../components/page-index/introBlock";
+import FeaturedImage from "../components/page-index/featuredImage";
 import Footer from "../components/footer";
 
 const IndexPage = () => {
