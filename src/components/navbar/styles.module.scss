@@ -37,17 +37,18 @@
   font-family: $poppins;
   text-decoration: none;
   font-family: $poppins;
+  font-style: italic;
   position: relative;
 
-  &:before {
-    content: '';
-    height: 28px;
-    width: 28px;
-    border: 2px solid $white;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 15px;
-  }
+  //&:before {
+  //  content: '';
+  //  height: 28px;
+  //  width: 28px;
+  //  border: 2px solid $white;
+  //  display: inline-block;
+  //  vertical-align: middle;
+  //  margin-right: 15px;
+  //}
 }
 
 .list {
