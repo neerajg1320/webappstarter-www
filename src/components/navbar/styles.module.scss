@@ -11,21 +11,12 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 50px; /* This becomes consequential when flex-wrap happens */
 }
 
-.navbar-left {
+.navbar-section {
   flex-grow: 1;
   display: flex;
-  flex-wrap: wrap;
-  gap: 100px;
-}
-
-.navbar-right {
-  flex-grow: 1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 150px;
   justify-content: center;
 }
 

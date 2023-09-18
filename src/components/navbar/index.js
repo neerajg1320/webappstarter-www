@@ -11,16 +11,19 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <Container>
         <div className={styles.navbarInner}>
-          <div className={styles.navbarLeft}>
+          <div className={styles.navbarSection}>
             <Link className={styles.logo}  to="/">WEBAPP STARTER</Link>
+          </div>
+          
+          <div className={styles.navbarSection}>
             <ul className={styles.list}>
               <li className={styles.listItem}><a className={styles.navItem} href={`${urlStudioPlayground}`}>Playground</a></li>
               <li className={styles.listItem}><a className={styles.navItem} href={`${urlStudio}`}>Studio</a></li>
               <li className={styles.listItem}><Link className={styles.navItem}  to="/faq">FAQ</Link></li>
             </ul>
-            
           </div>
-          <div className={styles.navbarRight}>
+          
+          <div className={styles.navbarSection}>
             <a className={styles.cta} href={`${urlSignup}`}>Sign Up</a>
           </div>
         </div>
