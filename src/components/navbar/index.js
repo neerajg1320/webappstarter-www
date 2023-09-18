@@ -18,8 +18,11 @@ const Navbar = () => {
               <li className={styles.listItem}><a className={styles.navItem} href={`${urlStudio}`}>Studio</a></li>
               <li className={styles.listItem}><Link className={styles.navItem}  to="/faq">FAQ</Link></li>
             </ul>
+            
           </div>
-          <a className={styles.cta} href={`${urlSignup}`}>Sign Up</a>
+          <div className={styles.navbarRight}>
+            <a className={styles.cta} href={`${urlSignup}`}>Sign Up</a>
+          </div>
         </div>
       </Container>
     </div>

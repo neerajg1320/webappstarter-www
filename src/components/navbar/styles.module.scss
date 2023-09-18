@@ -19,6 +19,12 @@
   gap: 150px;
 }
 
+.navbar-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
 .logo {
   color: $white;
   font-size: 24px;
