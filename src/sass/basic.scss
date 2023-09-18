@@ -14,4 +14,8 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  body::-webkit-scrollbar {
+    width: 0 !important
+  }
 }
