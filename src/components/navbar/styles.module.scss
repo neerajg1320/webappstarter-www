@@ -10,19 +10,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: wrap;
+  flex-wrap: wrap;
+  gap: 100px;
 }
 
 .navbar-left {
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  gap: 150px;
+  gap: 100px;
 }
 
 .navbar-right {
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 150px;
+  justify-content: center;
 }
 
 .logo {
