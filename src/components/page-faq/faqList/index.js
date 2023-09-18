@@ -7,11 +7,7 @@ const FaqList = () => {
     return [
       {
         "question": "What is webappstarter.com?",
-        "answer": "The site webappstarter.com intends to provide starting template for web applications. Currently templates for react-apps are supported. The project is in very initial and we intend to support other existing frameworks like Angularjs, Vuejs, Svelte, Solid etc"
-      },
-      {
-        "question": "How to use the site?",
-        "answer": "The main idea of the site is that the visitor wants to download a web application created by others or want to generate on for themselves. If you want to generate a template then you can use Playground or Studio to do the same."
+        "answer": "It is a Reactjs Integrated Development Environment (IDE) on your browser. The files are edited, bundled and previewed in one browser tab."
       },
       {
         "question": "What is Playground?",
@@ -26,7 +22,6 @@ const FaqList = () => {
         "answer": "In Playground, the users will create temporary project without the intention to save them for later use. Once the session is gone, the user cannot access project anymore. Also in playground project a user can create a max of 5 files. \n" +
             "There are no above limitations in Studio, how a user has to create an account and login to create projects which will be persisted."
       }
-
     ]
   }, []);
   

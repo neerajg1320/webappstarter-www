@@ -8,7 +8,7 @@ const IntroBlock = () => {
     <div className={styles.introBlock}>
       <Container size="small">
         <h1 className={styles.introBlockTitle}>
-          Web Application <span>Starter Templates</span> for a <span>quick start</span>
+          Javascript, <span>Reactjs IDE</span> on your browser
         </h1>
         <a className={styles.cta} href={`${urlStudioPlayground}`}>try  <span className={styles.emphasize}>Playground</span></a>
       </Container>

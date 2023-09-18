@@ -11,7 +11,7 @@ const Footer = () => {
       <Container>
         <div className={styles.footerInner}>
           <p>&copy; Webapp Starter {getCurrentYear()}</p>
-          <p><a href="/">Made by Community</a></p>
+          <p><a href="/">Made for Community</a></p>
         </div>
       </Container>
     </footer>
