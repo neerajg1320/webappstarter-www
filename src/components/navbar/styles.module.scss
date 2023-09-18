@@ -2,22 +2,33 @@
 
 
 .navbar {
-  padding: 50px;
+  padding: 10px;
   background-color: $blue;
+  //border: 1px solid lightgreen;
 }
 
 .navbar-inner {
+  //border: 1px solid lightcoral;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 50px; /* This becomes consequential when flex-wrap happens */
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .navbar-section {
   flex-grow: 1;
   display: flex;
   justify-content: center;
+}
+
+.navbar-section-left {
+  //border: 1px solid lightblue;
 }
 
 .logo {

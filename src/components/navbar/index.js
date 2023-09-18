@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <Container>
         <div className={styles.navbarInner}>
-          <div className={styles.navbarSection}>
+          <div className={styles.navbarSection + " " + styles.navbarSectionLeft}>
             <Link className={styles.logo}  to="/">WEBAPP STARTER</Link>
           </div>
           
