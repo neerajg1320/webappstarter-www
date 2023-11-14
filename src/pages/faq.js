@@ -3,19 +3,35 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import FaqHeader from "../components/page-faq/faqHeader";
 import FaqList from "../components/page-faq/faqList";
+import { graphql } from "gatsby";
 
-const FaqPage = () => {
+const FaqPage = ({ data }) => {
+  // console.log(data);
   return (
-      <>
-        <Navbar />
-        <FaqHeader />
-        <FaqList />
-        <Footer />
-      </>
+    <>
+      <Navbar />
+      <FaqHeader />
+      <FaqList faqListData={data} />
+      <Footer />
+    </>
   );
 };
 
 export default FaqPage;
 
-export const Head = () => <title>FAQ Page</title>
+export const Head = () => <title>FAQ Page</title>;
 
+export const faqListQuery = graphql`
+  query MyQuery {
+    allFaqsJson {
+      edges {
+        node {
+          question
+          answer
+        }
+      }
+    }
+  }
+`;
+
+// console.log(faqLists);

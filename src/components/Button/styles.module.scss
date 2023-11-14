@@ -1,0 +1,41 @@
+@import "../../sass/variables.scss";
+
+.loginButton {
+  border: 2px solid $blue;
+  background-color: $white;
+  color: $blue;
+  padding: 0.8rem 0rem;
+}
+
+.signupButton {
+  background-color: $blue;
+  color: $white;
+  padding: 0.9rem 0rem;
+
+}
+
+.loginButton,
+.signupButton {
+  width: 8rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  .loginButton,
+  .signupButton {
+    width: 4rem;
+    font-size: 0.8rem;
+  }
+
+  .loginButton {
+    padding: 0.5rem 0rem;
+  }
+
+  .signupButton {
+    padding: 0.6rem 0rem;
+
+  }
+
+}

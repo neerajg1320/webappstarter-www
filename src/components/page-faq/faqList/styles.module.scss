@@ -3,7 +3,8 @@
 .faq-list {
   background-color: $white;
   text-align: left;
-  padding: 50px 0;
+  padding: 0rem 5rem 5rem 5rem;
+  color: $blue;
 }
 
 .faq-list-inner {
@@ -12,21 +13,12 @@
   gap: 25px;
 }
 
-.faq-item {
-  font-family: $poppins;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 
-  .question {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
+@media (max-width: 500px){
+    
+  .faq-list{
+    padding: 0 2rem 5rem 2rem;
   }
-
-  .answer {
-    font-size: 16px;
-    margin: 0;
-  }
+ 
 }
 

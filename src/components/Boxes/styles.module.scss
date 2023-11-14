@@ -1,0 +1,26 @@
+.boxes{
+    position: relative;
+    width: 50rem;
+    margin: auto;
+    height: 36rem;
+    // margin: 2rem auto;
+  }
+
+@media (max-width: 850px) {
+  .boxes{
+    width: 85%;
+  }
+}
+
+@media (max-width: 750px) {
+  .boxes{
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .boxes{
+    width: 70%;
+    height: 29rem;
+  }
+}

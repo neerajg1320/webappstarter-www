@@ -1,16 +1,15 @@
 @import "src/sass/variables";
 
 .faq-header {
-  padding: 50px 0 50px 0;
+  // padding: 50px 0 50px 0;
   text-align: center;
-  background-color: $blue;
+  color: $blue;
+  padding: 5rem 3rem 3rem 3rem;
+  // background-color: $blue;
 }
 
 .faq-header-title {
-  margin: 0 0 40px 0;
-  color: $white;
-  font-family: $poppins;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.2em;
 
@@ -28,4 +27,12 @@
   font-family: $poppins;
   display: inline-block;
   text-decoration: none;    
+}
+
+@media (max-width: 500px){
+    
+  .faq-header-title {
+    font-size: 35px;
+  }
+ 
 }

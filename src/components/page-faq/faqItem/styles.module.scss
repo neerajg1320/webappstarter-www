@@ -1,0 +1,49 @@
+@import "../../../sass/variables";
+
+.faq-item {
+    // font-family: $poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid $blue;
+    border-radius: 10px;
+    padding: 2rem;
+  
+    .question {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+  
+    }
+  
+    .answer {
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    .arrow{
+      background-color: transparent;
+      color: $blue;
+      font-size: 1.3rem;
+      border: none;
+    }
+  }
+
+  @media (max-width: 500px){
+    
+    .faq-list{
+      padding: 0 2rem 5rem 2rem;
+    }
+  
+    .faq-item{
+      .question{
+        font-size: 18px;
+      }
+      .answer{
+        font-size: 14px;
+      }
+    }
+   
+  }

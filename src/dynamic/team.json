@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Neeraj Gupta",
+        "role":"Founder",
+        "description": "Neeraj Gupta is a Founder at WebAppStarter. He is Solutions' Architect and Full Stack Web Developer",
+        "linkedInUrl": "https://www.linkedin.com/in/neerajg1320/",
+        "githubUrl": "https://github.com/neerajg1320",
+        "twitterUrl": "https://twitter.com/justNeeraj",
+        "imgUrl": "./images/neeraj_gupta_img.PNG"
+    },
+    {
+        "name": "Vanshika",
+        "role":"Frontend web Developer",
+        "description": "Vanshika is a Frontend Web Developer at WebAppStarter. She is a MERN Stack Developer",
+        "linkedInUrl": "https://www.linkedin.com/in/vanshika-a614151aa/",
+        "githubUrl": "https://github.com/vanshika0606",
+        "twitterUrl": "https://twitter.com/vanshika0606",
+        "imgUrl": "./images/vanshika_img.png"
+
+    }
+]

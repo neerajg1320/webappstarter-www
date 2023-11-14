@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "description": "Save your work effortlessly with our 'Save to Disk' feature. Your creations are securely stored on your device, ensuring that you have full control over your files. No need to worry about losing your hard work.",
+        "heading": "Save Disk Space",
+        "imgUrl" : "./images/disk_space.png"
+    },
+    {
+        "id": 2,
+        "description": "Get started in no time! Our editor is designed for a seamless and hassle-free user experience. You'll be up and running in seconds, allowing you to focus on what matters most - your content..",
+        "heading": "Quick Time",
+        "imgUrl" : "./images/quick_time.png"
+    },
+    {
+        "id": 3,
+        "description": "Our online editor is accessible from anywhere with an internet connection. Whether you're at home, in the office, or on the go, you can easily access your work and continue editing without any location constraints.",
+        "heading": "Access From Anywhere",
+        "imgUrl" : "./images/access_from_anywhere.png"
+    },
+    {
+        "id": 4,
+        "description": "Boost your productivity with our editor's powerful and efficient tools. Speed up your development process, making it easier to create, edit, and collaborate on projects, saving you valuable time..",
+        "heading": "Fast Development Time",
+        "imgUrl" : "./images/fast_development_time.png"
+    }
+]

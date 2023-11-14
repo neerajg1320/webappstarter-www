@@ -1,22 +1,21 @@
 @import "src/sass/variables";
 
 .intro-block {
-  padding: 100px 0 250px 0;
+  padding: 5rem;
   text-align: center;
-  background-color: $blue;
+  background-color: $white;
 }
 
 .intro-block-title {
   margin: 0 0 40px 0;
-  color: $white;
+  color: $blue;
   font-family: $poppins;
-  font-size: 42px;
+  font-size: 35px;
   font-weight: 400;
   line-height: 1.2em;
-  //text-transform: lowercase;
 
   span {
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 600;
   }
 }
@@ -24,16 +23,17 @@
 .cta {
   padding: 13px 25px;
   border-radius: 5px;
-  color: $blue;
-  background-color: $white;
-  font-size: 16px;
+  color: $white;
+  background-color: $blue;
+  font-size: 13px;
   font-family: $poppins;
   display: inline-block;
   text-decoration: none;
+  border: 2px solid $blue;
 }
 
 .emphasize {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
 }
